@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    
+    <ion-buttons>
+      <ion-back-button Href=""></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>Entrada</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <ion-item *ngFor="let arrayProduto of arrayProduto" lines="none">
+      <ion-label>Prod: {{arrayProduto.nome}}<br> Quan: {{arrayProduto.quantidade}}</ion-label>
+      <ion-button color="danger"  (click)="adiciona()">  <ion-icon name="add"></ion-icon>
+      </ion-button>
+    </ion-item>
+  </div>
+</ion-content>
