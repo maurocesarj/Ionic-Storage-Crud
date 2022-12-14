@@ -13,3 +13,4 @@ Em desenvolvimento:
 
 <hr>
 
+![2022-12-14-17-53-40_Trim](https://user-images.githubusercontent.com/98528661/207712003-11719992-e1ed-426f-bf8e-d4a902a3595e.gif)
